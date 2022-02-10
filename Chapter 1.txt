@@ -1,0 +1,47 @@
+- ?: is the elvis operator
+*used to fall back to another value if the variable is null
+*ex: val myComputer: Computer = computer ?: Computer("My Computer")
+^if computer is null the value will default to Computer("My Computer")
+and the variable is stored and immutable
+
+
+-!! is the not-null assertion operator
+*can be used instead of safe-call operator
+^if null will throw NPE(null-pointer exception)
+**think before using
+
+-no ternary operator in Kotlin must use if-else
+
+-when -> similar to switch statement
+
+-two types of loops = for and while
+*variation of while = do-while loops
+^executes code then checks condition
+
+-infinite loop = StackOverflowException
+
+-Any class is the superclass of all objects
+
+-class Generic<T> can be used to abstract
+*can store information as val newInteger = Generic<Int>
+
+-let = helps with null-checks and creates new local scope
+*new instance of class inside called it inside the block
+
+-run = similar to let but provides target object as this
+^isolates block from outer scope
+
+-let and run are transformational
+
+-also = returns original object(can still modifiy object)
+*uses it to refer to object in block
+
+-apply = uses this, returns same object as target
+
+-TODO() = throws errer NotImplementedError() to remind us to finish project
+
+-list = can work with any type
+
+-read only data structures can prevent side effects
+
+-every data structure has advantages and disadvantages
