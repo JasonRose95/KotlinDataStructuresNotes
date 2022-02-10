@@ -1,0 +1,8 @@
+-Big O notation for execution time and memory usage
+-Constant time can be slow, but equally slow all the time
+-linear time = as input increases run time increases by the same amount
+-n squared = quadratic time
+-for large n linear time is always faster than n squared
+-log time repeatedly drops half the comparisons
+-quasilinear time = sort method in kotlin O(n log n)
+-polynomial time, exponential time, factorial time
